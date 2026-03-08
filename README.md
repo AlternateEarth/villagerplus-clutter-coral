@@ -74,6 +74,18 @@ These were added:
 | Mod - Clutter | Dead Fan   | Dead Gem Coral Fan       | clutter:dead_gem_coral_fan       | Oceanographer | Journeyman | Process Item | ✅    |
 | Mod - Clutter | Dead Fan   | Dead Diamond Coral Fan   | clutter:dead_diamond_coral_fan   | Oceanographer | Journeyman | Process Item | ✅    |
 | Mod - Clutter | Dead Fan   | Dead Anchor Coral Fan    | clutter:dead_anchor_coral_fan    | Oceanographer | Journeyman | Process Item | ✅    |
+| Vanilla       | N/A        | Prismarine Crystal       | minecraft:prismarine_crystals    | Oceanogrpaher | Master     | Sell         | ✅    |
+| Vanilla       | N/A        | Prismarine Shard         | minecraft:prismarine_shard       | Oceanogrpaher | Master     | Sell         | ✅    |
+
+## Testing
+
+If you need to test, you can spawn a specific level of villager that will roll on the trade tables at that specific level only.
+
+```
+/summon villager ~ ~ ~ {VillagerData:{type:plains,profession:villagersplus:oceanographer,level:5}}
+```
+
+This will summon a oceanographer at the master level and pick two random master level trades.
 
 ## References
 

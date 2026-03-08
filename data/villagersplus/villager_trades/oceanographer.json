@@ -996,6 +996,34 @@
         "max_uses": 8,
         "villager_experience": 5
       }
+    ],
+    "master": [
+      {
+        "type": "villagersplus:sell_item",
+        "sell": {
+          "item": "minecraft:prismarine_crystals",
+          "count": 9
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 2
+        },
+        "max_uses": 12,
+        "villager_experience": 5
+      },
+      {
+        "type": "villagersplus:sell_item",
+        "sell": {
+          "item": "minecraft:prismarine_shard",
+          "count": 9
+        },
+        "priceIn": {
+          "item": "emerald",
+          "count": 2
+        },
+        "max_uses": 12,
+        "villager_experience": 5
+      }
     ]
   }
 }
