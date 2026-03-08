@@ -82,7 +82,7 @@ These were added:
 If you need to test, you can spawn a specific level of villager that will roll on the trade tables at that specific level only.
 
 ```
-/summon villager ~ ~ ~ {VillagerData:{type:plains,profession:villagersplus:oceanographer,level:5}}
+/summon villager ~ ~ ~ {VillagerData:{type:plains,profession:'villagersplus:oceanographer',level:5}}
 ```
 
 This will summon a oceanographer at the master level and pick two random master level trades.
