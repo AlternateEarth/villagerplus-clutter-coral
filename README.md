@@ -1,81 +1,41 @@
-# Add Clutter Coral to Villager Plus' Oceanographer
+# VillagersPlus - More Trades - Clutter Coral
 
-This is a simple data pack for adding all the various coral types from clutter to the villager plus' Oceanographer trades.
+A data pack that adds the Clutter mod's coral to the VillagersPlus Oceanographer. The coral trades follow the same pattern VillagersPlus already uses for vanilla coral.
 
-## Changes
+## Added Trades
 
-These were added:
+**Sell** means the villager sells the item to you. **Exchange** means you hand over the dead form plus the emeralds and get the living form back.
 
-| Source        | Coral Type | Coral Name               | Item Code                        | Villager      | Level      | Trade Type   | Added |
-| ------------- | ---------- | ------------------------ | -------------------------------- | ------------- | ---------- | ------------ | ----- |
-| Mod - Clutter | Normal     | Cup Coral                | clutter:cup_coral                | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Ghost Coral              | clutter:ghost_coral              | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Slate Coral              | clutter:slate_coral              | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Stone Coral              | clutter:stone_coral              | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Thorn Coral              | clutter:thorn_coral              | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Cocoa Coral              | clutter:cocoa_coral              | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Passion Coral            | clutter:passion_coral            | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Toxic Coral              | clutter:toxic_coral              | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Gem Coral                | clutter:gem_coral                | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Diamond Coral            | clutter:diamond_coral            | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Normal     | Anchor Coral             | clutter:anchor_coral             | Oceanographer | Apprentice | Sell         | ✅    |
-| Mod - Clutter | Dead       | Dead Cup Coral           | clutter:dead_cup_coral           | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Ghost Coral         | clutter:dead_ghost_coral         | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Slate Coral         | clutter:dead_slate_coral         | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Stone Coral         | clutter:dead_stone_coral         | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Thorn Coral         | clutter:dead_thorn_coral         | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Cocoa Coral         | clutter:dead_cocoa_coral         | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Passion Coral       | clutter:dead_passion_coral       | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Toxic Coral         | clutter:dead_toxic_coral         | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Gem Coral           | clutter:dead_gem_coral           | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Diamond Coral       | clutter:dead_diamond_coral       | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Dead       | Dead Anchor Coral        | clutter:dead_anchor_coral        | Oceanographer | Apprentice | Process Item | ✅    |
-| Mod - Clutter | Block      | Cup Coral Block          | clutter:cup_coral_block          | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Ghost Coral Block        | clutter:ghost_coral_block        | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Slate Coral Block        | clutter:slate_coral_block        | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Stone Coral Block        | clutter:stone_coral_block        | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Thorn Coral Block        | clutter:thorn_coral_block        | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Cocoa Coral Block        | clutter:cocoa_coral_block        | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Passion Coral Block      | clutter:passion_coral_block      | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Toxic Coral Block        | clutter:toxic_coral_block        | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Gem Coral Block          | clutter:gem_coral_block          | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Diamond Coral Block      | clutter:diamond_coral_block      | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Block      | Anchor Coral Block       | clutter:anchor_coral_block       | Oceanographer | Expert     | Sell         | ✅    |
-| Mod - Clutter | Dead Block | Dead Cup Coral Block     | clutter:dead_cup_coral_block     | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Ghost Coral Block   | clutter:dead_ghost_coral_block   | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Slate Coral Block   | clutter:dead_slate_coral_block   | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Stone Coral Block   | clutter:dead_stone_coral_block   | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Thorn Coral Block   | clutter:dead_thorn_coral_block   | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Cocoa Coral Block   | clutter:dead_cocoa_coral_block   | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Passion Coral Block | clutter:dead_passion_coral_block | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Toxic Coral Block   | clutter:dead_toxic_coral_block   | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Gem Coral Block     | clutter:dead_gem_coral_block     | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Diamond Coral Block | clutter:dead_diamond_coral_block | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Dead Block | Dead Anchor Coral Block  | clutter:dead_anchor_coral_block  | Oceanographer | Expert     | Process Item | ✅    |
-| Mod - Clutter | Fan        | Cup Coral Fan            | clutter:cup_coral_fan            | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Ghost Coral Fan          | clutter:ghost_coral_fan          | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Slate Coral Fan          | clutter:slate_coral_fan          | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Stone Coral Fan          | clutter:stone_coral_fan          | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Thorn Coral Fan          | clutter:thorn_coral_fan          | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Cocoa Coral Fan          | clutter:cocoa_coral_fan          | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Passion Coral Fan        | clutter:passion_coral_fan        | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Toxic Coral Fan          | clutter:toxic_coral_fan          | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Gem Coral Fan            | clutter:gem_coral_fan            | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Diamond Coral Fan        | clutter:diamond_coral_fan        | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Fan        | Anchor Coral Fan         | clutter:anchor_coral_fan         | Oceanographer | Journeyman | Sell         | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Cup Coral Fan       | clutter:dead_cup_coral_fan       | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Ghost Coral Fan     | clutter:dead_ghost_coral_fan     | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Slate Coral Fan     | clutter:dead_slate_coral_fan     | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Stone Coral Fan     | clutter:dead_stone_coral_fan     | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Thorn Coral Fan     | clutter:dead_thorn_coral_fan     | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Cocoa Coral Fan     | clutter:dead_cocoa_coral_fan     | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Passion Coral Fan   | clutter:dead_passion_coral_fan   | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Toxic Coral Fan     | clutter:dead_toxic_coral_fan     | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Gem Coral Fan       | clutter:dead_gem_coral_fan       | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Diamond Coral Fan   | clutter:dead_diamond_coral_fan   | Oceanographer | Journeyman | Process Item | ✅    |
-| Mod - Clutter | Dead Fan   | Dead Anchor Coral Fan    | clutter:dead_anchor_coral_fan    | Oceanographer | Journeyman | Process Item | ✅    |
-| Vanilla       | N/A        | Prismarine Crystal       | minecraft:prismarine_crystals    | Oceanogrpaher | Master     | Sell         | ✅    |
-| Vanilla       | N/A        | Prismarine Shard         | minecraft:prismarine_shard       | Oceanogrpaher | Master     | Sell         | ✅    |
+| Profession    | Level      | Type     | Item                                      | Amount | Price     |
+| ------------- | ---------- | -------- | ----------------------------------------- | ------ | --------- |
+| Oceanographer | Apprentice | Sell     | Clutter Coral (any of the 11 types)       | 1      | 3 Emerald |
+| Oceanographer | Apprentice | Exchange | Dead Clutter Coral for living coral       | 1      | 1 Emerald |
+| Oceanographer | Journeyman | Sell     | Clutter Coral Fan                         | 1      | 3 Emerald |
+| Oceanographer | Journeyman | Exchange | Dead Clutter Coral Fan for living fan     | 1      | 1 Emerald |
+| Oceanographer | Expert     | Sell     | Clutter Coral Block                       | 1      | 5 Emerald |
+| Oceanographer | Expert     | Exchange | Dead Clutter Coral Block for living block | 1      | 1 Emerald |
+| Oceanographer | Master     | Sell     | Prismarine Crystals                       | 9      | 2 Emerald |
+| Oceanographer | Master     | Sell     | Prismarine Shard                          | 9      | 2 Emerald |
+
+That is 66 coral trades plus the 2 prismarine trades, 68 in total.
+
+### Coral types and item ids
+
+The 11 Clutter coral types are cup, ghost, slate, stone, thorn, cocoa, passion, toxic, gem, diamond and anchor. For each type `<type>`:
+
+| Form       | Living                       | Dead                              |
+| ---------- | ---------------------------- | --------------------------------- |
+| Coral      | `clutter:<type>_coral`       | `clutter:dead_<type>_coral`       |
+| Coral fan  | `clutter:<type>_coral_fan`   | `clutter:dead_<type>_coral_fan`   |
+| Coral block | `clutter:<type>_coral_block` | `clutter:dead_<type>_coral_block` |
+
+The trade data is in `data/villagersplus/villager_trades/oceanographer.json`.
+
+## Requirements
+
+- Minecraft 1.20.1
+- [VillagersPlus](https://modrinth.com/mod/villagersplus)
+- [Clutter](https://modrinth.com/mod/clutter)
 
 ## Testing
 
@@ -85,7 +45,7 @@ If you need to test, you can spawn a specific level of villager that will roll o
 /summon villager ~ ~ ~ {VillagerData:{type:plains,profession:'villagersplus:oceanographer',level:5}}
 ```
 
-This will summon a oceanographer at the master level and pick two random master level trades.
+This will summon an Oceanographer at the master level and pick two random master level trades.
 
 ## References
 
