@@ -10,7 +10,6 @@ on:
 
 env:
   MINECRAFT_VERSION: 1.20.1
-  JAVA_VERSION: 1.17
   VERSION: mc1.20.1-1.1.0-release
   VERSION_TYPE: release
   RELEASE_NAME: 1.1.0 (release) for MC 1.20.1
@@ -57,4 +56,3 @@ jobs:
           dependencies: |
             villagersplus(required){modrinth:oHGMwNDR}
             clutter(required){modrinth:KZAmykow}
-          java: "${{env.JAVA_VERSION}}"
